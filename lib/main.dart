@@ -14,7 +14,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('${cities[0].zonePriceList[0].toString()}'),
+        child: Text('${cities[0].zonePriceList.length.toString()}'),
       ),
     );
   }
